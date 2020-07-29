@@ -11,3 +11,4 @@ def line(array)
     puts "The line is currently:" + namelist
   end
 end 
+
