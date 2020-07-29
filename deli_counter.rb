@@ -23,6 +23,6 @@ def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currenty serving #{katz_deli[0]"
+    puts "Currenty serving #{array[0]"
 end
 end
