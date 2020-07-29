@@ -17,5 +17,5 @@ end
 def function take_a_number(line,newName)
  var place = line.length+1
  line.push(newName)
- return "Welcome, #{newName}. You are number #{place} in line."
+ puts "Welcome, #{newName}. You are number #{place} in line."
 end
