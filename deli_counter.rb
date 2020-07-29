@@ -25,5 +25,5 @@ def now_serving(array)
   else
     puts "Currenty serving #{array[0]"
 array.shift
-end
+  end
 end
