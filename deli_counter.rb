@@ -19,9 +19,10 @@ def take_a_number(line,newName)
  puts "Welcome, #{newName}. You are number #{line.length} in line."
 end
 
-def now_serving(katz_deli)
-  if katz_deli==[]
+def now_serving(array)
+  if array.empty?
     puts "There is nobody waiting to be served!"
   else
     puts "Currenty serving #{katz_deli[0]"
+end
 end
